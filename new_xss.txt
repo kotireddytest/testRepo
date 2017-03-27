@@ -1,4 +1,4 @@
-<a'' href'' onclick=alert(9)>foo</a>
+<a'' href'' onclick=alert(1)>foo</a>
 <img/src=""onerror=alert(9)>
 <a"" href=""onclick=alert(9)>foo</a>
 <img%0d%0asrc=""%0d%0aonerror=alert(9)>
