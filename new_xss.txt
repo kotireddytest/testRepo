@@ -3,7 +3,7 @@
 <a"" href=""onclick=alert(9)>foo</a>
 <img%0d%0asrc=""%0d%0aonerror=alert(9)>
 <a href="java&#115;cript:alert(9)">foo</a>
-<a href="java&#x73;cript:alert(9)">foo</a>
+<a href="java&#x73;cript:alert(19)">foo</a>
 <a href="java&#x0073;cript:alert(9)">foo</a>
 <input type=text name=foo value=a%20onchange=alert(9)>
 <input type="text" name="foo" value=""onmouseover=alert(9)//">
